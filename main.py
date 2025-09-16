@@ -42,7 +42,7 @@ def dencrypt_demo():
 def brute_force_demo():
     print("Brute-Force")
     message = input("Enter message: ")
-    for i in range(1, 26):
+    for i in range(26):
         encrypted = caesar_cipher(message, i)
         print(f"Shift {i}: {encrypted}")
 
